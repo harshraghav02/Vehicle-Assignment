@@ -13,11 +13,11 @@ public class Boat implements WaterVehicle{
 
     @Override
     public String getVehicleName() {
-        return "Boat";
+        return this.name;
     }
 
     @Override
     public int getVehicleCapacity() {
-        return 2;
+        return this.capacity;
     }
 }
